@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="let_var_const.js"></script>
+</head>
+<body>
+    <h1>Welcome to MERN</h1>
+    <p >Test paragraph here</p>
+    <p id="myid">My id text here</p>
+    <p class="myclass">My class text here</p>
+    <script>
+        document.getElementById("myid").style.backgroundColor = "red";
+        // $("#myid").css("color", "red");
+        document.getElementsByClassName("myclass")[0].style.backgroundColor = "blue";
+        document.querySelector("h1").style.backgroundColor = "yellow";
+    </script>
+</body>
+</html>
